@@ -3,7 +3,8 @@
 
 
 def isPalindrome(self, s: str) -> bool:
-    text = ''.join(ch.lower() for ch in s if ch.isalnum())
+    # text = ''.join(ch.lower() for ch in s if ch.isalnum())
+    text = ''.join(filter(str.isalnum, s)).lower()
     start = 0
     end = len(text) - 1
     while (start < end):
