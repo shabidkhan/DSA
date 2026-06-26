@@ -129,5 +129,15 @@ The correctness argument: when `nums[left] + nums[right] < target`, the **only**
 | Difficulty | Problem | Link |
 |------------|---------|------|
 | Easy | **Valid Palindrome** — check if a string reads the same forwards and backwards, ignoring non-alphanumerics and case. | https://leetcode.com/problems/valid-palindrome/ |
+| Easy | **Two Sum II - Input Array Is Sorted** — return 1-indexed positions of the two numbers in a sorted array that add up to a target. | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ |
+| Easy | **Reverse String** — reverse a character array in place using two pointers swapping from both ends. | https://leetcode.com/problems/reverse-string/ |
+| Easy | **Reverse Vowels of a String** — swap only the vowels in a string, leaving other characters in place. | https://leetcode.com/problems/reverse-vowels-of-a-string/ |
+| Easy | **Squares of a Sorted Array** — given a sorted array, return a sorted array of the squares. (Largest squares come from extremes — fill output from the back.) | https://leetcode.com/problems/squares-of-a-sorted-array/ |
+| Easy | **Merge Sorted Array** — merge `nums2` into `nums1` in place, filling from the right using two pointers from the ends of both arrays. | https://leetcode.com/problems/merge-sorted-array/ |
+| Easy | **Valid Palindrome II** — return true if the string can become a palindrome by deleting at most one character. | https://leetcode.com/problems/valid-palindrome-ii/ |
+| Easy | **Reverse Only Letters** — reverse only the alphabetic characters in a string, leaving non-letters in their original positions. | https://leetcode.com/problems/reverse-only-letters/ |
+| Easy | **Sort Array By Parity** — rearrange the array so all even integers come before odd ones, using two pointers from each end. | https://leetcode.com/problems/sort-array-by-parity/ |
+| Easy | **DI String Match** — reconstruct a permutation from an "I"/"D" pattern by picking the smallest remaining for "I" and the largest for "D". | https://leetcode.com/problems/di-string-match/ |
+| Easy | **Intersection of Two Arrays II** — return the intersection of two arrays as a multiset. (Sort both, then walk two pointers inward from the starts/ends.) | https://leetcode.com/problems/intersection-of-two-arrays-ii/ |
 | Medium | **3Sum** — return all unique triplets `(a, b, c)` in the array such that `a + b + c = 0`. (Sort, then fix one and opposite-ends the rest.) | https://leetcode.com/problems/3sum/ |
 | Hard | **Trapping Rain Water** — given an array of bar heights, compute how much water is trapped after raining. (Two pointers from each end tracking running max heights.) | https://leetcode.com/problems/trapping-rain-water/ |
