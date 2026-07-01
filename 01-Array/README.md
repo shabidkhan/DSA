@@ -96,3 +96,4 @@ Subpatterns in this folder:
 - Many patterns require sorted input — sorting cost may dominate.
 - Binary search on answer needs a provable monotone predicate, which can be subtle.
 - Streaming or infinite arrays need specialised online algorithms.
+
